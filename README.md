@@ -7,30 +7,24 @@
 
   
 /mine remove <b><name></b> - Удаление шахты
-  
-<b>Permissions: mmine.command.remove</b>
+  <b>Permissions: mmine.command.remove</b>
 
   
 /mine list - Список шахт
-  
-<b>Permissions: mmine.command.list</b>
+  <b>Permissions: mmine.command.list</b>
 
   
 /mine reload - Перезагрузка конфига плагина
-  
-<b>Permissions: mmine.command.reload</b>
+  <b>Permissions: mmine.command.reload</b>
 
   
 /mine salary - Получение зарплаты
-  
-<b>Permissions: mmine.command.salary</b>
+  <b>Permissions: mmine.command.salary</b>
 
   
 /mine reset - Перезагрузка блоков в шахте
-  
-<b>Permissions: mmine.command.reset</b>
+  <b>Permissions: mmine.command.reset</b>
 
   
 /mine setnpc - Установка нпс для выдачи зарплаты
-  
-<b>Permissions: mmine.command.setnpc</b>
+  <b>Permissions: mmine.command.setnpc</b>
