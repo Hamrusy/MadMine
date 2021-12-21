@@ -1,6 +1,6 @@
 # MadMine - Плагин на работу шахтером, как на многих популярных серверах
 
-Команды и права:
+## Команды и права:
 
 /mine create <b><name></b> - Cоздание шахты
   <b>Permissions: mmine.command.create</b>
