@@ -10,8 +10,8 @@
 <b>Permissions: mmine.command.remove</b>
 
 
-/mine list - Список шахт
-<b>Permissions: mmine.comm<br>and.list</b><br>
+/mine list - Список шахт<br>
+<b>Permissions: mmine.comm<br>and.list</b>
 
   
 /mine reload - Перезагрузка конфига плагина<br>
@@ -19,7 +19,7 @@
 
   
 /mine salary - Получение зарплаты<br>
-<b>Permissions: mmine.command.salary
+<b>Permissions: mmine.command.salary</b>
 
   
 /mine reset - Перезагрузка блоков в шахте<br>
