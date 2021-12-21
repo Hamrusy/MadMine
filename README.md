@@ -11,7 +11,7 @@
 
 
 /mine list - Список шахт<br>
-<b>Permissions: mmine.comm<br>and.list</b>
+<b>Permissions: mmine.command.list</b>
 
   
 /mine reload - Перезагрузка конфига плагина<br>
