@@ -3,8 +3,7 @@
 Команды и права:
 
 /mine create <b><name></b> - Cоздание шахты
-  
-<b>Permissions: mmine.command.create</b>
+  <b>Permissions: mmine.command.create</b>
 
   
 /mine remove <b><name></b> - Удаление шахты
