@@ -1,0 +1,11 @@
+name: MadMine
+author: Hamrusy
+version: 2.0
+main: ru.hamrusy.madmine.Main
+depend: [WorldEdit, Vault, PlaceholderAPI]
+softdepend: [Citizens, CommandNPC]
+
+commands:
+  mine:
+    description: Основная команда плагина.
+    aliases: [mm, madmine, mmine]
