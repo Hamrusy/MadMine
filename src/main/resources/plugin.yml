@@ -1,9 +1,9 @@
 name: MadMine
 author: Hamrusy
-version: 2.0
+version: 2.1
+api-version: 1.13
 main: ru.hamrusy.madmine.Main
 depend: [WorldEdit, Vault, PlaceholderAPI]
-softdepend: [Citizens, CommandNPC]
 
 commands:
   mine:

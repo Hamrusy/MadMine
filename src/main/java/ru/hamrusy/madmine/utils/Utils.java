@@ -1,11 +1,15 @@
 package ru.hamrusy.madmine.utils;
 
+import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;
+import ru.hamrusy.madmine.Main;
+
 
 public class Utils {
     private static FileConfiguration config;
+    private static FileConfiguration messages;
 
     public Utils() {
     }
@@ -14,8 +18,13 @@ public class Utils {
         return config != null ? config : (config = Config.getFile("config.yml"));
     }
 
+    public static FileConfiguration getMessages() {
+        return messages  != null ? messages  : (messages  = Config.getFile("messages.yml"));
+    }
+
     public static void reloadConfig() {
-        config = Config.getFile("config.yml");
+        Bukkit.getPluginManager().disablePlugin(Main.getInstance());
+        Bukkit.getPluginManager().enablePlugin(Main.getInstance());
     }
 
     public static String color(String s) {
@@ -23,7 +32,7 @@ public class Utils {
     }
 
     public static String getMessage(String s) {
-        return getConfig().getString("messages." + s);
+        return getMessages().getString("messages." + s);
     }
 
     public static String getNpc(String s) {

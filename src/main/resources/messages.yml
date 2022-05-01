@@ -1,0 +1,38 @@
+messages:
+  prefix: '&e&lШахта &7| &f'
+  commandmanager:
+    title_help: 'Список команд:'
+    command_not_found: 'Неизвестная команда.'
+    error: 'Произошла ошибка при выполнении данной команды.'
+    no_permission: 'У вас нет прав.;title:  &6&lШахта %nl% У вас нет прав.'
+  create:
+    usage: '&c/mine create <название> &f- Создать шахту'
+    no_selection: 'Пожалуйста выделите территорию для создание шахты'
+    already: 'Данная шахта уже существует, придумайте другое название.'
+    complete: 'Шахта сохранена.;title:  &6&lШахта %nl% Шахта сохранена.'
+  remove:
+    usage: '&c/mine remove <название> &f- Удалить шахту'
+    not-found: 'Данной шахты не существует.'
+    complete: 'Шахта успешно удалена.;title:  &6&lШахта %nl% Шахта успешно удалена.'
+  reset:
+    usage: '&c/mine reset &f- Перезагрузить все блоки в шахте'
+    complete: 'Блоки перезагружены.;title:  &6&lШахта %nl% Блоки перезагружены.'
+  reload:
+    usage: '&c/mine reload &f- Перезагрузить конфиг плагина'
+    complete: 'Конфиг перезагружен.;title:  &6&lШахта %nl% Конфиг перезагружен.'
+  setnpc:
+    usage: '&c/mine setnpc &f- Поставить начальника'
+    complete: 'Начальник установлен.;title:  &6&lШахта %nl% Начальник установлен.'
+  list:
+    usage: '&c/mine list &f- Показать список шахт'
+    empty: 'Список шахт пуст.'
+    title: 'Список шахт:'
+    format: '&c%step%&f. &a%name% &f- %stats%'
+    stats: '(&e%min%&f) -> (&e%max%&f), &a%world%'
+  salary:
+    usage: '&c/mine salary &f- Получить зарплату'
+    zero: 'Чтобы получить зарплату, вы должны ломать руды.;title:  &6&lШахта %nl% Чтобы получить зарплату, вы должны ломать руды.'
+    complete: 'title:  &6&lШахта %nl% Вы получили зарплату в размере &c%salary%$;actionbar:Вы получили зарплату в размере &c%salary%$'
+  block:
+    complete: 'actionbar:Вы получили &c%salary%$ &fза ломание блока: &c%block%'
+    full: 'actionbar:Ваш рюкзак полон! Сдайте ресурсы начальнику что бы продолжить копание'
